@@ -15,7 +15,7 @@ def get_bank_logger():
     Returns:
         logger: Logger
     """
-    logger = logging.getLogger("SoftmasterBank")
+    logger = logging.getLogger("Softmaster_Bank")
 
     # Verhindert doppelte Logs, falls der Logger mehrfach aufgerufen wird
     if not logger.handlers:
