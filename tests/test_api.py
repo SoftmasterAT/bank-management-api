@@ -27,8 +27,8 @@ class TestBankAPI(unittest.TestCase):
         self.assertIn("text/html", response.headers["content-type"])
         
         # Prüfe, ob wichtige Begriffe im HTML-Text vorkommen
-        self.assertIn("Nodrex Bank-Management API", response.text)
-        self.assertIn("static/nr_logo.webp", response.text)
+        self.assertIn("Softmaster Bank-Management API", response.text)
+        self.assertIn("static/sm_logo.webp", response.text)
 
     # --- TAG: 1. Übersicht ---
     def test_alle_konten(self):
@@ -76,7 +76,7 @@ class TestBankAPI(unittest.TestCase):
     def test_konto_erstellen(self):
         token = self.get_token() # 1. Login
         headers = {"Authorization": f"Bearer {token}"} # 2. Token in Header packen
-        name = "NodRex"
+        name = "Softmaster"
         payload = {
             "name":name,
             "typ": "giro",

@@ -1,13 +1,13 @@
-# 🏦 Bank-Management API ![Python CI](https://github.com/Nodrex-86/bank-management-api/actions/workflows/python-app.yml/badge.svg)
+# 🏦 Bank-Management API ![Python CI](https://github.com/SoftmasterAT/bank-management-api/actions/workflows/python-app.yml/badge.svg)
 
 A modular banking system built with Python, demonstrating advanced **Software Architecture**, automated testing, and a modern REST API.
 
 ## 🌐 Live Demo & Cloud Infrastructure
 The application is containerized and automatically deployed to the cloud using a robust CI/CD pipeline.
 
-- **Live Landing Page:** 👉 [Nodrex Bank API (Azure)](https://nodrex-management-api-ddhqgfgtg6b4c7hm.westeurope-01.azurewebsites.net)
+- **Live Landing Page:** 👉 [Softmater Bank API (Azure)](https://nodrex-management-api-ddhqgfgtg6b4c7hm.westeurope-01.azurewebsites.net)
 - **Interactive API Docs:** 👉 [Swagger UI (Azure)](https://nodrex-management-api-ddhqgfgtg6b4c7hm.westeurope-01.azurewebsites.net/docs)
-- **Deployment Status:** [![Build and Deploy FastAPI to Azure](https://github.com/Nodrex-86/bank-management-api/actions/workflows/main.yml/badge.svg)](https://github.com/Nodrex-86/bank-management-api/actions/workflows/main.yml)
+- **Deployment Status:** [![Build and Deploy FastAPI to Azure](https://github.com/SoftmasterAT/bank-management-api/actions/workflows/main.yml/badge.svg)](https://github.com/SoftmasterAT/bank-management-api/actions/workflows/main.yml)
 
 ### 🛠️ Tech Stack (DevOps & Cloud)
 - **Cloud Provider:** Microsoft Azure (App Services)

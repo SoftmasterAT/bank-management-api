@@ -211,7 +211,7 @@ storage_type = ""
 if __name__ == "__main__":
     logger.info(f"Programm gestartet")
     print("\n" + "="*40)
-    print("      🏦 NODREX BANK-MANAGEMENT")
+    print("      🏦 Softmaster BANK-MANAGEMENT")
     print("="*40)
     print("Wählen Sie den Speicher-Modus:")
     print(" [1] JSON-Datei (Lokal/Einfach)")

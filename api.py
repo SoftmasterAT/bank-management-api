@@ -100,7 +100,7 @@ Nutzen Sie den **Authorize**-Button oben rechts (Schloss-Symbol), um sich anzume
 | Rolle | Username | Passwort | Berechtigung |
 | :--- | :--- | :--- | :--- |
 | **Administrator** | `admin` | *Intern* | Voller Zugriff & Kontoverwaltung |
-| **Demo-User** | `DEMO_USER` | `Demo_Nodrex_API_2026` | Nur Transaktionen (Einzahlen/Abheben) |
+| **Demo-User** | `DEMO_USER` | `Demo_Softmaster_API_2026` | Nur Transaktionen (Einzahlen/Abheben) |
 
 ---
 
@@ -113,7 +113,7 @@ Nutzen Sie den **Authorize**-Button oben rechts (Schloss-Symbol), um sich anzume
 """
 
 app = FastAPI(
-    title="🏦 Nodrex Bank-Management API",
+    title="🏦 Softmaster Bank-Management API",
     description=inspect.cleandoc(description_text), # Entfernt Einrückungs-Fehler
     version="1.4.0"
 )
@@ -145,7 +145,7 @@ def home():
     <html lang="de">
         <head>
             <meta charset="UTF-8">
-            <title>Nodrex Bank API</title>
+            <title>Softmaster Bank API</title>
             <link rel="icon" href="/favicon.ico" type="image/x-icon">
             <style>
                 body { 
@@ -207,8 +207,8 @@ def home():
         </head>
         <body>
             <div class="container">
-                <img src="/static/nr_logo.webp" alt="Nodrex Logo" class="logo">
-                <h1>Nodrex Bank-Management API</h1>
+                <img src="/static/sm_logo.webp" alt="Softmaster Logo" class="logo">
+                <h1>Softmaster Bank-Management API</h1>
                 <p>Status: <span style="color: #28a745;">● Online</span></p>
                 <div class="security-badge">
                     <span>🔒</span> Gesichert mit JWT-Authentifizierung

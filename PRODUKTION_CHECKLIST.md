@@ -1,4 +1,4 @@
-# 🚀 Production Checklist: Nodrex Bank-Management API
+# 🚀 Production Checklist: Softmaster Bank-Management API
 
 Diese Checkliste stellt sicher, dass die API stabil, sicher und performant in der Cloud (Azure) läuft.
 
