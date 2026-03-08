@@ -28,7 +28,7 @@ class TestBankAPI(unittest.TestCase):
         
         # Prüfe, ob wichtige Begriffe im HTML-Text vorkommen
         self.assertIn("Softmaster Bank-Management API", response.text)
-        self.assertIn("static/nr_logo.webp", response.text)
+        self.assertIn("static/sm_logo.webp", response.text)
 
     # --- TAG: 1. Übersicht ---
     def test_alle_konten(self):
