@@ -28,6 +28,10 @@ This API is containerized and deployed in the cloud via **Render.com** and also 
 - **Main API Base URL:** `https://bank-api.softmaster.at/bank/`  
 - **Swagger UI (Interactive Docs):** `https://bank-api.softmaster.at/docs`  
 
+
+## Screenshot
+![API Preview](static/screenshot_softmaster_bank_api.png)
+
 ### 🛠️ Tech Stack (DevOps & Cloud)
 - **Cloud Provider:** Microsoft Azure (App Services)
 - **Containerization:** Docker & GitHub Container Registry (GHCR)
