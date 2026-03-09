@@ -163,7 +163,7 @@ def home():
                     display: inline-block; 
                     box-shadow: 0 15px 35px rgba(0,0,0,0.5); 
                     max-width: 550px;
-                    border-top: 4px solid #d32f2f; /* Roter Akzent-Balken oben */
+                    border-top: 4px solid #4be3fc; /* sky Akzent-Balken oben */
                 }
                 .logo { 
                     max-width: 180px; 
@@ -180,18 +180,18 @@ def home():
                     display: inline-block;
                     margin-top: 30px;
                     padding: 14px 28px;
-                    background: #d32f2f; /* Dein Rot-Ton */
+                    background: #123858; /* deep blue-Ton */
                     color: white;
                     text-decoration: none;
                     border-radius: 8px;
                     font-weight: bold;
                     transition: all 0.3s ease;
-                    box-shadow: 0 4px 12px rgba(211, 47, 47, 0.3);
+                    box-shadow: 0 4px 12px rgba(75, 227, 252, 0.3);
                 }
                 .btn:hover { 
-                    background: #b71c1c; 
+                    background: #38b1c5; 
                     transform: translateY(-2px);
-                    box-shadow: 0 6px 20px rgba(211, 47, 47, 0.4);
+                    box-shadow: 0 6px 20px rgba(75, 227, 252, 0.4);
                 }
                 strong { color: #28a745; }
                 .security-badge {
