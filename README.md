@@ -15,7 +15,7 @@ This API is containerized and deployed in the cloud via **Render.com** and also 
 
 | Environment        | URL |
 |-------------------|-----|
-| **Production (Custom Domain)** | [Softmater Bank API (softmaster.at)](https://bank-api.softmaster.at/) |
+| **Production (Custom Domain)** | [Softmater Bank API (softmaster.at)](https://bank-api.softmaster.at) |
 | **Interactive API Docs:**   | [Swagger UI (softmaster.at)](https://bank-api.softmaster.at//docs)
 | **Render Preview / Backup**   | [Softmater Bank API (Render)](https://bank-management-api-53gb.onrender.com) |
 | **Azure Demo**      | [Softmater Bank API (Azure)](https://nodrex-management-api-ddhqgfgtg6b4c7hm.westeurope-01.azurewebsites.net) |
@@ -25,7 +25,7 @@ This API is containerized and deployed in the cloud via **Render.com** and also 
 
 ## 📝 API Overview
 
-- **Main API Base URL:** `https://bank-api.softmaster.at/bank/`  
+- **Main API Base URL:** `https://bank-api.softmaster.at`  
 - **Swagger UI (Interactive Docs):** `https://bank-api.softmaster.at/docs`  
 
 
